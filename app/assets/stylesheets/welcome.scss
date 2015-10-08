@@ -25,4 +25,35 @@
     border-top: 2px solid $highlight;
     margin: 2rem 0;
   }
+  h3 {
+    font-size: 1.35em;
+    font-weight: 400;
+    margin-bottom: .5em;
+  }
+
+  a {
+    text-decoration: none;
+    color: $dark;
+    &:hover {
+      color: $highlight;
+    }
+  }
+  .date {
+    font-szie: .85em;
+    margin-bottom: 2em;
+    color: $light;
+  }
+
+  p {
+    margin: 0 0 .75em 0;
+  }
 }
+
+.about {
+    padding: 0 7.5% 0 0;
+    a {
+      color: $highlight;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
