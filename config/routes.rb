@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  resources :posts
+
   root 'pages#index'
 
   get 'articles' => 'pages#articles'
