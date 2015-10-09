@@ -2,11 +2,9 @@ Rails.application.routes.draw do
 
   resources :posts
 
- 
-  
   root 'welcome#index'
 
-  get 'articles' => 'pages#articles'
+   get 'articles' => 'pages#articles'
 
    get 'contact' => 'pages#contact'
 
