@@ -1,0 +1,44 @@
+
+
+<div class="wrapper wrapper_padding clearfix">
+  <div class="col-1 about homepage_content">
+      <h2><b>About</b></h2>
+      <hr>
+      <p>Bacon ipsum dolor amet boudin  &amp;brisket ham,</p> rump kevin venison t-bone landjaeger. Ball tip ham hock landjaeger, <p> porchetta kevin cupim rump pork loin leberkas. </p>Chicken capicola corned beef <p>andouille ribeye spare ribs bresaola frankfurter pancetta alcatra short ribs pastrami beef short loin.<a href="#">Unicasts.</p>
+  </div>
+
+  <div class="col-2 homepage_content">
+    <h2><b>Stuff I've Written</b></h2>
+    <hr>
+
+    <% @posts.each do |post| %>
+      <h3><b><a href="#"><%= link_to post.title, post %></a></b><h3>
+      <p class="date"><%= post.created_at.strftime("%A, %b %d") %></p>
+
+    <% end %>
+
+    <h3><a href="#">How do I learn "X"?></h3>
+    <p class="date">Friday April 18th</p>
+    <h3><a href="#">Strive for the uncomfortable</a></h3>
+    <p class="date">Friday April 18th</p>
+  </div>
+
+  <div class="col-3 homepage_content">
+    <h2><b>Stuff I've Built</b></h2>
+    <hr>
+    <h3><a href="#">Unicasts</a></h3>
+    <p class="date">Friday April 18th</p>
+    <h3><a href="#">How do I learn "X"?</a> </h3>
+    <p class="date">Friday April 18th</p>
+    <h3><a href="#">How do I learn "X"?</a></h3>
+    <p class="date">Friday April 18th</p>
+
+  </div>
+</div>
+
+
+
+
+
+
+

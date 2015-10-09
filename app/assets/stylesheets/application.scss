@@ -11,7 +11,7 @@
  * file per style scope.
  *
  */
-
+@import 'normalize';
  $dark: #424652;
  $white: #FFFFFF;
  $light: #9a9da4;
@@ -27,7 +27,8 @@
  @import "bootstrap";
  @import "welcome";
  @import "post_project";
- @import 'normalize';
+
+
 
 
  body {
