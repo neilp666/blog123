@@ -8,4 +8,6 @@ disqus for comments  & friendly_id for seo purposes
 
 will paginate gem for pagination
 
+mail_form gem for contact
+
 https://neilsblog.herokuapp.com/
