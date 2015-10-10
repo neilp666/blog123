@@ -22,12 +22,11 @@
   <div class="col-3 homepage_content">
     <h2><b>Stuff I've Built</b></h2>
     <hr>
-    <h3><a href="#">Unicasts</a></h3>
-    <p class="date">Friday April 18th</p>
-    <h3><a href="#">How do I learn "X"?</a> </h3>
-    <p class="date">Friday April 18th</p>
-    <h3><a href="#">How do I learn "X"?</a></h3>
-    <p class="date">Friday April 18th</p>
+    <% @projects.each do |project| %>
+      <h3><b><a href="#"><%= link_to project.title, project %></a></b><h3>
+      <p class="date"><%= project.created_at.strftime("%A, %b %d") %></p>
+
+    <% end %>
 
   </div>
 </div>
